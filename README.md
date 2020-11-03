@@ -3,6 +3,7 @@
 
 ### 1. Ruby Basics: 1hr
 - [Ruby Basics](./rubybasics.md)
+-  When completed submit your homework [here](https://docs.google.com/forms/d/e/1FAIpQLSeroos9mbUxkYhzETYq4dylzqb_il07tKHBby2YPLkqb0Wr9Q/viewform). 
 
 ### 2. Read - EST TIME: 30min
 - [Relational Databases](https://www.smartsheet.com/relational-database) - Its a long read and it's advised you read the entire tutorial however please focus specifically on the **"Relational Databases vs. Nonrelational Databases"**
