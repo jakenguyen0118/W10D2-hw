@@ -2,7 +2,7 @@
 # W10D02-HW
 
 ### Ruby Basics: 1hr
-- [Ruby Basics](./ruby_algos.md)
+- [Ruby Algos](./ruby_algos.md)
 -  When completed submit your homework [here](https://docs.google.com/forms/d/e/1FAIpQLSeroos9mbUxkYhzETYq4dylzqb_il07tKHBby2YPLkqb0Wr9Q/viewform). 
 
 ### Read - EST TIME: 30min
