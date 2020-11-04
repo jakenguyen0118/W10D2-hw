@@ -2,7 +2,7 @@
 # W10D02-HW
 
 ### 1. Ruby Basics: 1hr
-- [Ruby Basics](./rubybasics.md)
+- [Ruby Basics](./ruby_practice.md)
 -  When completed submit your homework [here](https://docs.google.com/forms/d/e/1FAIpQLSeroos9mbUxkYhzETYq4dylzqb_il07tKHBby2YPLkqb0Wr9Q/viewform). 
 
 ### 2. Read - EST TIME: 30min
