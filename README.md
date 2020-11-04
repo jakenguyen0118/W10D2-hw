@@ -9,7 +9,7 @@
 - [Relational Databases](https://www.smartsheet.com/relational-database) - Its a long read and it's advised you read the entire tutorial before Friday.  Please also focus specifically on the section related to **"Relational Databases vs. Nonrelational Databases"**
 
 ### Algo Practice - EST TIME: 1hr
-- [Two SUM](./ALGO.MD)
+
 
 ### Interview Practice - EST TIME: 20min
 - Add and answer the following question: 
