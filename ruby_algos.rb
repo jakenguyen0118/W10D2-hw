@@ -19,13 +19,28 @@ Constitution for the United States of America)
   # a Fixnum.
   def longest(list)
     # Your code goes here
+    longest_word = ''
+    list.each do |word|
+      longest_word = word if longest_word.length < word.length
+    end
+    puts longest_word
   end
+
+  longest(words)
 
   # Write ruby code that returns an array with all of the
   # entries from the list of words capitalized (i.e. 'foo' becomes 'Foo').
   def transform(words)
     # Your code goes here
+    cap_array = []
+    words.each do |word|
+      capitals = word.capitalize()
+      cap_array.push(capitals)
+    end
+    puts cap_array
   end
+
+  transform(words)
 
 #################################################################
 # NUMBERS ARRAYS
@@ -39,18 +54,61 @@ mixed_nums = [0, 2, 4, 7]
   # in the list of numbers are odd (test the three given number arrays)
   def some_odd(numbers)
     # Your code goes here
+    num_arr = []
+    
+    numbers.each do |num|
+      if num.odd? == false
+        nil
+      else
+        num_arr.push(num)
+      end
+    end
+
+    if num_arr.length > 0
+      p true
+    else
+      p false
+    end
   end
 
   # Write ruby code that returns true if every entry in the
   # list of numbers are even (test the three given number arrays)
   def every_even(numbers)
     # Your code goes here
+    num_arr = []
+    numbers.each do |num|
+      if num.even? == false
+        p false
+        break
+      end
+      if num.even?
+        num_arr.push(num)
+      end
+      if num_arr.length == numbers.length
+        p true
+      end
+    end
   end
+
+  every_even(even_nums)
 
   # Write ruby code that returns the sum total of all the numbers in the even_nums array
   def sum_evens(numbers)
     # Your code goes here
+    num_arr = []
+
+    numbers.each do |num|
+      if num.even?
+        num_arr.push(num)
+      else
+        nil
+      end
+    end
+    
+    p num_arr.sum
   end
+
+  sum_evens(mixed_nums)
 
 #################################################################
 # STUDENTS ARRAY
@@ -81,7 +139,7 @@ students = [
 # create a variable called allFemales that stores the result of calling filterGender and the isFemale callback
 
 #################################################################
-# DUPLICATE COUNT
+# BONUS - DUPLICATE COUNT
 #################################################################
 
 colorsArr = [
