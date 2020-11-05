@@ -127,16 +127,39 @@ students = [
 ]
 
 # create a method called isMale that filters for a gender of 'M' and returns those elements
+def is_male(students)
+  students.select do |student|
+    student[:gender] == 'M'
+  end
+end
+
+p is_male(students)
 
 # create a method called isFemale that filters for a gender of 'F' and returns those elements
+def is_female(students)
+  students.select do |student|
+    student[:gender] == 'F'
+  end
+end
+
+p is_female(students)
 
 # create a method called filterGender that takes in the students array and a callback, which 
 # will be one of the previous isMale or isFemale methods.  It will return all elements that 
 # meet that condition
+def filter_gender callback
+  callback
+end
+
+p filter_gender(is_male(students))
 
 # create a variable called allMales that stores the result of calling filterGender and the isMale callback
+all_male = filter_gender(is_male(students))
+p all_male
 
 # create a variable called allFemales that stores the result of calling filterGender and the isFemale callback
+all_female = filter_gender(is_female(students))
+p all_female
 
 #################################################################
 # BONUS - DUPLICATE COUNT
